@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e40968aa-0c98-49a0-94c4-0ad9858a3dd3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pict_10.jpg" afterPath="$PROJECT_DIR$/img/pict_10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pict_2.jpg" afterPath="$PROJECT_DIR$/img/pict_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pict_3.jpg" afterPath="$PROJECT_DIR$/img/pict_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pict_4.jpg" afterPath="$PROJECT_DIR$/img/pict_4.jpg" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\FontAwesome_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\FontAwesome_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\FontAwesome_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\FontAwesome_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-100_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-100_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-100_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-100_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-300_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-300_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-300_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-300_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-500_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-500_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-500_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-500_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-700_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-700_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-700_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-700_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-900_gdi.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-900_gdi.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-900_gdi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\MuseoSansCyrl-900_gdi.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\MuseoSansCyrl 100.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\MuseoSansCyrl 300.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\MuseoSansCyrl 500.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\MuseoSansCyrl 700.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\MuseoSansCyrl 900.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Drm\Dropbox\PhpStorm\2015.08.20 Ирина Ленд\2015.08.20-irina_lendtop\font\src\fontawesome-webfont.ttf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
@@ -28,28 +54,19 @@
     <favorites_list name="2015.08.20-irina_lendtop" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4978678">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8331347">
-                  <caret line="313" column="14" selection-start-line="313" selection-start-column="14" selection-end-line="313" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.8104887">
+                  <caret line="42" column="44" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="44" />
                   <folding>
+                    <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -58,10 +75,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="P_LT_main_FIN.jpg" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../src/verstka_landingtop/P_LT_main_FIN.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.953917">
+                  <caret line="196" column="19" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -82,8 +102,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -241,22 +261,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8331347">
-          <caret line="313" column="14" selection-start-line="313" selection-start-column="14" selection-end-line="313" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.8104887">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="44" />
           <folding>
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.953917">
+          <caret line="196" column="19" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
