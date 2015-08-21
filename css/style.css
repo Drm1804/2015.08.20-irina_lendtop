@@ -446,3 +446,28 @@ body{
     font-size: 1.12em;
     margin-top: 85px;
 }
+.b-scroll-9-h2{
+    color: #6165a5;
+    text-align: center;
+    font-family: 'MuseoSansCyrl-700';
+    font-size: 2.8em;
+    line-height: 1.2em;
+}
+.b-scroll-9{
+    background: url(../img/pict_10.jpg) 50% 50% no-repeat;
+    overflow: hidden;
+}
+.b-scroll-9-width{
+    width: 46%;
+    float: right;
+    padding: 0 2%;
+}
+.b-scroll-9-send{
+    color: #ffffff;
+    border: 4px solid #29caff;
+    display: block;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0;
+}
