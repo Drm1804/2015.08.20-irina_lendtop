@@ -405,3 +405,44 @@ body{
     font-family: 'MuseoSansCyrl-900';
     font-size: 1.7em;
 }
+
+.b-scroll-8{
+    background: #dfe8ed;
+    padding: 55px 0;
+
+}
+.b-scroll-8__h2{
+    text-align: center;
+    font-family: 'MuseoSansCyrl-300';
+    font-size: 2.2em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.b-scroll-8__h2 span{
+    font-family: 'MuseoSansCyrl-700';
+    display: block;
+    font-size: 0.79em;
+    text-transform: lowercase;
+}
+
+.b-scroll-8-item{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+.b-scroll-8-item-img{
+    margin-bottom: 10px;
+}
+.b-scroll-8-item-p{
+    width: 80%;
+    font-family: Arial;
+    font-size: 1.11em;
+    line-height: 1.4em;
+}
+.b-scroll-8-after{
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.12em;
+    margin-top: 85px;
+}
