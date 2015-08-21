@@ -363,7 +363,18 @@ body{
     font-size: 1.15em;
     line-height: 1.5em;
 }
-
+.b-scroll-5-item-p--w-80{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.b-scroll-5-item-p span{
+    font-family: Arial;
+    font-size: .75em;
+}
+.b-scroll-5-item-img{
+    margin-bottom: 20px;
+}
 .b-scroll-6{
     background: #01befe;
 }
