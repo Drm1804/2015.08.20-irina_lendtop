@@ -17,7 +17,7 @@
     url('../fonts/MuseoSansCyrl-100_gdi.woff') format('woff'),
     url('../fonts/MuseoSansCyrl-100_gdi.ttf') format('truetype'),
     url('../fonts/MuseoSansCyrl-100_gdi.svg#MuseoSansCyrl-100') format('svg');
-    font-weight: 250;
+    font-weight: 100;
     font-style: normal;
     font-stretch: normal;
     unicode-range: U+0020-FB04;
@@ -377,4 +377,31 @@ body{
 }
 .b-scroll-6{
     background: #01befe;
+}
+
+/*todo сделать скролл 6*/
+
+.b-scroll-7{
+
+}
+.b-scroll-7-h2{
+    text-align: center;
+    color: #41484e;
+    font-size: 2.5em;
+}
+.b-scroll-7__item{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-scroll-7-item{
+    font-family: Arial;
+    font-size: 1.124em;
+    line-height: 1.2em;
+    padding: 20px 0;
+}
+.b-scroll-7-item span{
+    color: #752b90;
+    font-family: 'MuseoSansCyrl-900';
+    font-size: 1.7em;
 }
