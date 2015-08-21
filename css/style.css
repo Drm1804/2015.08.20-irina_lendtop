@@ -228,4 +228,77 @@ body{
     position: relative;
     background-color: #fff;
     z-index: 10;
+    padding-top: 50px;
+}
+.b-scroll-2__col{
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.b-scroll-2-h2{
+    font-size: 1.86em;
+    line-height: 1.4em;
+
+}
+.b-scroll-2-separate{
+    height: 2px;
+    width: 62px;
+    background-color: #6466a7;
+    margin: 40px 0;
+}
+.b-scroll-2-p{
+    font-family: Arial;
+    font-size: 1.12em;
+    line-height: 1.6em;
+    padding: 12px 0;
+
+}
+
+.b-scroll-2-card__img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6%;
+}
+
+.b-scroll-2-card__name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-scroll-2-card__name{
+
+}
+.b-scroll-2-card-name__h3{
+    font-family: Arial;
+    font-size: 1.85em;
+    line-height: 1.2em;
+}
+.b-scroll-2-card-name__p{
+    font-family: Arial;
+    color: #6466a7;
+    line-height: 1.2;
+    padding: 7px 3px;
+}
+.b-scroll-2-card-col{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.b-scroll-2-card-row {
+    padding: 10px 0;
+}
+.b-scroll-2-card-col__p{
+    font-family: Arial;
+    font-size: .9em;
+    line-height: 1.2em;
+}
+.b-scroll-2-card-col__p span{
+    color: #6466a7;
+}
+.b-scroll-2-card{
+    padding-bottom: 95px;
+}
+.b-scroll-2-big-img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
