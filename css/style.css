@@ -304,12 +304,18 @@ body{
 }
 
 .b-scroll-3{
-
+    padding: 70px 0;
 }
 .b-scroll-3-h2{
     color: #41484e;
     text-align: center;
     font-size: 2.75em;
+}
+.b-scroll-3-separate{
+    width: 80px;
+    height: 2px;
+    background-color: #6567a7;
+    margin: 40px auto;
 }
 .b-scroll-3-box__item{
     width: 33.3%;
