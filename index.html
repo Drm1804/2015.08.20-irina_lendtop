@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/Scroll-To/scrollTo.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
 <div class="b-wrapper">
@@ -30,7 +32,7 @@
             </div>
             <ul class="b-header-nav__link">
                 <li class="b-header-nav-link">
-                    <a href="#portfolio" class="b-header-nav-link-item">Портфолио</a>
+                    <a href="#portfolio" class="b-header-nav-link-item scroll-to">Портфолио</a>
                 </li>
                 <li class="b-header-nav-link">
                     <a href="#" class="b-header-nav-link-item">Блог</a>
@@ -322,11 +324,11 @@
                 <div class="b-scroll-6__slide-item">
                     <img src="img/pict_2.jpg" alt="">
                 </div>
-                <div class="b-scroll-6__slide-item">
-                    <!--<img src="img/pict_3.jpg" alt="">-->
+                <div class="b-scroll-6__slide-item b-scroll-6__slide-item--pos-ab">
+                    <img src="img/pict_3.jpg" alt="">
                 </div>
-                <div class="b-scroll-6__slide-item">
-                    <!--<img src="img/pict_4.jpg" alt="">-->
+                <div class="b-scroll-6__slide-item b-scroll-6__slide-item--pos-ab">
+                    <img src="img/pict_4.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -468,7 +470,7 @@
                 </p>
                 <div class="b-scroll-9-send-box">
                     <input placeholder="E-mail" class="b-scroll-9-input-text" type="text">
-                    <input class="b-scroll-9-input-btn" type="submit" value="Отправить">
+                    <input class="b-scroll-9-input-btn btn" type="submit" value="Отправить">
                 </div>
             </div>
         </div>
@@ -500,6 +502,14 @@
         </div>
     </div>
 </div>
+<div id="b-popUp1">
+    <div class="b-popUp-box">
+        <h2 class="b-popUp-cox__h2"></h2>
+        <h3 class="b-popUp-cox__h3"></h3>
+
+    </div>
+</div>
+<div id="b-popU2"></div>
 
 </body>
 </html>
