@@ -5,10 +5,27 @@ $(document).ready(function(){
     //$('.fancybox').fancybox();
 
 
+    //Парлакс эффект
+
+
     (function(){
-        console.log('353425')
+        var scroll = $('.b-scroll-2');
+
+        var scrollOffset = scroll.offset();
+        var scrollHeight = scroll.height();
+        $(document).scroll(function(){
+            var sc = $(document).scrollTop();
+            //console.log($(document).scrollTop())
+            if(scrollOffset.top < sc || scrollHeight > sc){
+                console.log('блок виден');
+            }
+        })
+    })()
+
+    //Слайдер
+    (function(){
         var slides = $('.b-scroll-6__slide-item');
-        var tabs = $('.b-scroll-6__li')
+        var tabs = $('.b-scroll-6__li');
         var count = 0;
 
         setInterval(function(){
@@ -16,7 +33,6 @@ $(document).ready(function(){
             if(count > slides.length - 1){
                 count = 0;
             }
-            //console.log(slides[count]);
 
             slides.hide(300);
             tabs.removeClass('b-scroll-6__li--check');
