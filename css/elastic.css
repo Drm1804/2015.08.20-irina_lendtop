@@ -1,4 +1,9 @@
 @media (max-width: 1000px){
+    .b-scroll-1 video{
+        height: 100%;
+        top: 0;
+
+    }
     .b-header-nav__tel{
         width: 30%;
     }
@@ -62,11 +67,43 @@
 }
 
 @media (max-width: 690px){
+    .b-header-nav-tel__img{
+        display: none;
+    }
+
+    .b-scroll-1 video{
+        height: 100%;
+        top: 0;
+
+    }
+    .b-scroll-1{
+        overflow: hidden;
+    }
+    .b-scroll-1__h1{
+        padding: 20% 0 20%;
+    }
+    .b-scroll-1__h2{
+        padding: 10% 0;
+    }
     .b-header-nav__link{
         display: none;
     }
     .b-header-nav__logo{
-
+        width: 35%;
+        vertical-align: middle;
+    }
+    .b-header-right{
+        display: inline-block;
+        width: 63%;
+        vertical-align: middle;
+    }
+    .b-header-nav__tel{
+        width: 100%;
+        display: block;
+    }
+    .b-header-nav__town{
+        width: 100%;
+        text-align: right;
     }
     .b-header-nav-p{
         font-size: .9em;
@@ -87,6 +124,9 @@
         font-size: 0.9em;
         width: 72%;
     }
+    .b-scroll-1__after{
+        margin: 10% auto 0;
+    }
     .b-scroll-3-box__item{
         width: 95%;
         margin: 0 auto;
@@ -102,9 +142,39 @@
     }
     .b-scroll-4-after{
         font-size: .9em;
+        margin-bottom: 20px;
     }
     .b-scroll-4-send{
 
+    }
+    .b-scroll-5__item{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .b-scroll-6-h2{
+        text-align: center;
+    }
+    .b-scroll-6__li span{
+        width: 80%;
+    }
+    .b-scroll-7__item{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .b-scroll-8__h2{
+        font-size: 1.5em;
+    }
+    .b-scroll-8__h2 span{
+        padding-top: 20px;
+    }
+    .b-scroll-8-item{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .b-footer__logo{
+        width: 100%;
     }
 
 }
