@@ -308,6 +308,7 @@ body{
     width: 100%;
     margin: 0 auto;
     display: block;
+    position: relative;
 }
 
 .b-scroll-3{

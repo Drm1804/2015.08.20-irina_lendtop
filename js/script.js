@@ -7,23 +7,41 @@ $(document).ready(function(){
 
     //Парлакс эффект
 
-
-    (function(){
+    var paralax = function(){
         var scroll = $('.b-scroll-2');
 
         var scrollOffset = scroll.offset();
         var scrollHeight = scroll.height();
-        $(document).scroll(function(){
+        var windowHeight = $(window).height();
+        $(window).on('mousewheel', function(event){
+            console.log(event.originalEvent.deltaY);
             var sc = $(document).scrollTop();
-            //console.log($(document).scrollTop())
-            if(scrollOffset.top < sc || scrollHeight > sc){
-                console.log('блок виден');
+            var img = $('.b-scroll-2-big-img');
+            if(scrollOffset.top < sc + windowHeight &&  scrollOffset.top + scrollHeight > sc){
+                var top = parseInt(img.attr('data-img'));
+                if(event.originalEvent.deltaY < 0){
+                    top += 30;
+                } else {
+                    top -= 30;
+                }
+
+                img.css('top', ''+top+'px');
+                img.attr('data-img', ''+top+'');
+
+            } else {
+                img.css('top', '0');
+                img.attr('data-img', '0');
             }
-        })
-    })()
+        });
+        //$(document).scroll(function(event){
+        //
+        //})
+    };
+    paralax();
+
 
     //Слайдер
-    (function(){
+    var slider = function(){
         var slides = $('.b-scroll-6__slide-item');
         var tabs = $('.b-scroll-6__li');
         var count = 0;
@@ -42,7 +60,7 @@ $(document).ready(function(){
         }, 3000)
 
 
-    })()
+    };
 
-
+    slider();
 });
