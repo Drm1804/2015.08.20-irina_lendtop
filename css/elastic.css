@@ -176,5 +176,16 @@
     .b-footer__logo{
         width: 100%;
     }
+    .b-scroll-3-also-btn{
+        display: block;
+        border: 4px solid #3da6ff;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        padding: 20px 0;
+    }
 
 }

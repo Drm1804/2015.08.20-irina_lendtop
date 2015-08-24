@@ -379,6 +379,9 @@ body{
     margin-bottom: 10%;
     font-size: .8em;
 }
+.b-scroll-3-also-btn{
+    display: none;
+}
 .b-scroll-4{
     background: #6466a7;
     padding: 70px 0;
