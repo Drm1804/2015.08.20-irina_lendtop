@@ -78,6 +78,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1.9%;
+    min-width: 300px;
 }
 .btn{
     cursor: pointer;
@@ -592,6 +593,14 @@ body{
     font-size: 1.12em;
     margin-top: 85px;
 }
+.b-scroll-9{
+    width: 100%;
+    background: #565aa4;
+
+}
+.b-scroll-9-width{
+    max-width: 500px;
+}
 .b-scroll-9-h2{
     color: #6165a5;
     text-align: center;
@@ -600,12 +609,24 @@ body{
     line-height: 1.2em;
 }
 .b-scroll-9{
-    background: url(../img/pict_10.jpg) 50% 50% no-repeat;
     overflow: hidden;
 }
+.b-scroll-9-col{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-scroll-9-col--bg{
+    width: 50%;
+    height: 512px;
+    background: url(../img/pict_10.jpg) 50% 50% no-repeat;
+    vertical-align: middle;
+
+}
+.b-scroll-9-col__img{
+    width: 100%;
+}
 .b-scroll-9-width{
-    width: 46%;
-    float: right;
     padding: 0 2%;
 }
 .b-scroll-9-send{
@@ -616,7 +637,7 @@ body{
     text-align: center;
     text-decoration: none;
     padding: 30px 0;
-    margin: 85px auto 55px;
+    margin: 60px auto 35px;
     font-size: 1.87em;
 }
 .b-scroll-9-send:hover{
