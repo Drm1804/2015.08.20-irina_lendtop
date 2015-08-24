@@ -11,11 +11,18 @@
         width: 25%;
     }
     .b-header-nav__logo{
-        width: 25%;
+        width: 100%;
+    }
+    .b-header-nav-logo{
+        text-align: center;
     }
     .b-scroll-2-big-img{
         display: none;
 
+    }
+    .b-header-right{
+        width: 100%;
+        padding-top: 20px;
     }
     .b-scroll-2__col{
         width: 100%;

@@ -101,6 +101,7 @@ body{
 .b-header-nav-logo{
     color: #ffffff;
 }
+
 .b-header-nav-logo__img{
     display: inline-block;
     vertical-align: middle;
@@ -148,7 +149,7 @@ body{
 .b-header-nav__link{
     display: inline-block;
     vertical-align: middle;
-    width: 15%;
+    width: 25%;
     text-align: right;
 }
 .b-header-nav-link{
@@ -688,6 +689,11 @@ body{
     display: inline-block;
     vertical-align: middle;
     width: 20%;
+}
+.b-header-right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 79%;
 }
 .b-header-nav-p{
     color: #ffffff;
