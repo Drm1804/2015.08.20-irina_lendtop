@@ -819,7 +819,7 @@ body{
     text-align: center;
 }
 .b-a-sc-4-grid{
-    margin-top: 40px;   
+    margin-top: 40px;
 }
 .b-a-sc-4-grid__item{
     width: 33.3%;
@@ -839,4 +839,30 @@ body{
     padding: 5% 9%;
     font-family: Arial;
     font-size: 1.1em;
+}
+.b-a-scroll-5{
+    padding-top: 70px;
+}
+.b-a-sc5-h2{
+    font-family: 'MuseoSansCyrl-500';
+    color: #26304d;
+    font-size: 3.1em;
+    padding: 30px 0;
+    text-align: center;
+}
+.b-a-sc5-p{
+    font-family: 'MuseoSansCyrl-300';
+    color: #26304d;
+    text-align: center;
+    font-size: 1.11em;
+    line-height: 1.6em;
+}
+.b-a-sc5-mouse-hover{
+    display: block;
+    text-align: center;
+    width: 300px;
+    background: url(../img/artess/hover.png) 50% 50% no-repeat;
+    margin: 0 auto;
+    padding: 60px 0 70px;
+    line-height: 5em;
 }
