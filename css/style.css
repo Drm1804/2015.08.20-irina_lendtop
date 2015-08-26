@@ -818,4 +818,25 @@ body{
     line-height: 1.4em;
     text-align: center;
 }
+.b-a-sc-4-grid{
+    margin-top: 40px;   
+}
+.b-a-sc-4-grid__item{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
 
+}
+.b-a-sc4-grid-item__img{
+    width: 100%;
+}
+.b-a-sc-4-grid-item__h3{
+    padding: 9% 9% 13%;
+    font-size: 1.85em;
+    font-family: Arial;
+}
+.b-a-sc-4-grid-item__p{
+    padding: 5% 9%;
+    font-family: Arial;
+    font-size: 1.1em;
+}
