@@ -993,3 +993,39 @@ body{
 .b-scroll-9-send--a{
     margin: 40px auto 35px;
 }
+.b-a-scroll-10{
+    background: #f3f3f3;
+
+}
+.b-a-sc10-left,
+.b-a-sc10-right{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.b-a-sc10-link{
+    width: 500px;
+    text-decoration: none;
+    color: #767676;
+    padding: 30px 0;
+}
+.b-a-sc10-link span{
+    color: #00b4ff;
+    font-family:'MuseoSansCyrl-900';
+    padding: 0 10px;
+
+}
+
+.b-a-sc10-left > .b-a-sc10-link{
+    float: right;
+    text-align: left;
+    border-right:1px solid #a1a1a1 ;
+}
+
+.b-a-sc10-right > .b-a-sc10-link{
+    float: left;
+    text-align: right;
+    border-left:1px solid #a1a1a1 ;
+}
