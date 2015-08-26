@@ -866,3 +866,45 @@ body{
     padding: 60px 0 70px;
     line-height: 5em;
 }
+.b-a-scroll-6{
+    background: url(../img/artess/bg_screen_3.jpg) 50% 100% no-repeat;
+    padding-bottom: 65px;
+}
+.b-a-sc6__frame:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: url(../img/artess/browser.png) 50% 50% no-repeat;
+}
+.b-a-sc6-frame{
+    width: 100%;
+    height: 879px;
+    overflow: hidden;
+}
+.b-a-sc6-h2{
+    font-size: 3.15em;
+    text-align: center;
+    padding: 45px 0 30px;
+
+}
+.b-a-sc6-p{
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: center;
+    padding-bottom: 45px;
+
+}
+.b-a-sc6-box-ico{
+
+}
+.b-a-sc6-ico{
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    padding: 25px 0;
+}
+.b-a-sc6-ico img{
+    margin: 0 auto;
+    display: block;
+}
