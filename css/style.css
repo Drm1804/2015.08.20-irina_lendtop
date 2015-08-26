@@ -950,7 +950,10 @@ body{
     margin: 0 auto;
     display: block;
 }
-
+.b-a-scroll-7{
+    position: relative;
+    z-index: 20;
+}
 
 .b-a-scroll-8{
     background: url(../img/artess/bg_screen_8.jpg) 50% 50% no-repeat;
