@@ -908,3 +908,44 @@ body{
     margin: 0 auto;
     display: block;
 }
+
+
+.b-a-scroll-8{
+    background: url(../img/artess/bg_screen_8.jpg) 50% 50% no-repeat;
+
+}
+
+.b-sc8-h2{
+    color: #fff;
+    font-size: 3.1em;
+    line-height: 1.2;
+    padding: 11px 0;
+
+}
+.b-sc8-p{
+    color: #fff;
+    font-size: 1.126em;
+    font-family: 'MuseoSansCyrl-300';
+    line-height: 1.6em;
+    padding: 13px 0;
+
+}
+
+
+
+.b-a-sc8-col{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.b-a-sc8-box{
+    background: url(../img/artess/hand.png) 50% 100% no-repeat;
+    height: 700px;
+}
+.b-a-sc8-box__overflow{
+    width: 276px;
+    height: 375px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 184px;
+}
