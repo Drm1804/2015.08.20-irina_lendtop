@@ -1029,3 +1029,77 @@ body{
     text-align: right;
     border-left:1px solid #a1a1a1 ;
 }
+
+.b-a-scroll-11{
+    background: #f3f3f3;
+    padding-bottom: 20px;
+
+}
+.b-a-sc11-col{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-a-sc11-rating{
+    padding-top: 50px;
+}
+
+.b-a-sc11-rating__star{
+    display: inline-block;
+    width: 55px;
+    background: url(../img/artess/star_big-n.png) 50% 50% no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    height: 55px;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+.b-a-sc11-rating__text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.b-a-sc11-box__col{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-a-sc11-box__col--small{
+    width: 32%;
+}
+.b-a-sc11-box__col-big{
+    width: 68%;
+}
+.b-a-sc11-rating__star--small{
+    width: 20px;
+    height: 30px;
+}
+.b-a-sc11-rating__text--small{
+    display: block;
+}
+.b-a-sc11-h2{
+    font-size: 3.1em;
+    padding: 15px 0 30px;
+    color: #31374d;
+}
+
+.b-a-cs11-box-p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #31374d;
+}
+.b-a-sc11-but{
+    display: block;
+    border: 2px solid #00a2ff;
+    width: 207px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0;
+    color: #000;
+    margin: 35px 0;
+}
+
+.b-a-sc11-rating--small{
+    padding: 0;
+}
