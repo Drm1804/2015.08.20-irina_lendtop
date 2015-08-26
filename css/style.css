@@ -73,6 +73,7 @@
 }
 body{
     font-family:'MuseoSansCyrl-500';
+    min-width: 300px;
 }
 .width{
     max-width: 1000px;
