@@ -949,3 +949,47 @@ body{
     overflow: hidden;
     padding-top: 184px;
 }
+.b-a-scroll-9-col{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 535px;
+}
+.b-a-scroll-9-col-width{
+    max-width: 500px;
+
+}
+.b-a-scroll-9-col--white{
+    background: #FFFFFF;
+
+}
+.b-a-scroll-9-col-width--l{
+    float: right;
+}
+.b-a-scroll-9-col-width--r{
+    float: left;
+    margin-left: 3%;
+}
+.b-scroll-2-card-name__h3--a{
+
+}
+.b-a-sc9-review__p{
+    font-size: 1.6em;
+    padding: 25px 0;
+}
+.b-scroll-2-card--a{
+    padding: 22px 0 45px;
+}
+.b-a-sc9-review__decript{
+    font-size: 1.19em;
+    line-height: 1.45em;
+}
+.b-a-scroll-9-big-first{
+    text-align: center;
+    color: #fff;
+    font-size: 1.9em;
+    padding: 35px 0 0 0;
+}
+.b-scroll-9-send--a{
+    margin: 40px auto 35px;
+}
