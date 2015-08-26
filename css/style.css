@@ -768,10 +768,11 @@ body{
 .b-a-sc2-h2{
     font-family: Arial;
     font-size: 1.55em;
-    padding: 60px 0 20px;
+    padding: 60px 0 25px;
 }
 .b-a-sc2-p{
     font-family: Arial;
+    font-size: .85em;
     line-height: 1.6em;
 }
 .b-a-sc2-p--col{
@@ -780,6 +781,47 @@ body{
 }
 .b-a-sc2-p__span{
     color: #3badfe;
+}
+.b-a-sc2-btn1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+    height: 56px;
+    background: #00a2ff;
+    line-height: 4em;
+    border: 2px solid #00a2ff;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.b-a-sc2-btn1 span{
+    font-family: 'MuseoSansCyrl-900';
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.b-a-sc2-btn2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+    height: 56px;
+    background: #f3f3f3;
+    line-height: 4em;
+    border: 2px solid #00a2ff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: .9em;
+    margin-top: 70px;
+}
+
+.b-a-sc2-btn2 span{
+    font-family: Arial;
+    font-size: 1.2em;
+    font-weight: bold;
+
 }
 .b-a-sc2-coll__img{
     width: 100%;
