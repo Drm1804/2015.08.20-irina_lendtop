@@ -749,15 +749,10 @@ body{
 
 .b-a-sc2-coll{
     display: inline-block;
-
+    width: 50%;
     vertical-align: top;
 }
-.b-a-sc2-coll--big{
-    width: 60%;
-}
-.b-a-sc2-coll--small{
-    width: 40%;
-}
+
 .b-a-scroll-2{
     background: #f3f3f3;
 }
@@ -777,7 +772,8 @@ body{
 }
 .b-a-sc2-p--col{
     display: inline-block;
-    width: 33%;
+    width: 50%;
+    padding: 5px 0;
 }
 .b-a-sc2-p__span{
     color: #3badfe;
@@ -860,6 +856,9 @@ body{
     line-height: 1.4em;
     text-align: center;
 }
+.b-a-scroll-4{
+    background: #ffffff;
+}
 .b-a-sc-4-grid{
     margin-top: 40px;
 }
@@ -883,6 +882,7 @@ body{
     font-size: 1.1em;
 }
 .b-a-scroll-5{
+    background: #ffffff;
     padding-top: 70px;
 }
 .b-a-sc5-h2{
@@ -910,6 +910,7 @@ body{
 }
 .b-a-scroll-6{
     background: url(../img/artess/bg_screen_3.jpg) 50% 100% no-repeat;
+    background-color: #fff;
     padding-bottom: 65px;
 }
 .b-a-sc6__frame:before{
@@ -952,9 +953,17 @@ body{
 }
 .b-a-scroll-7{
     position: relative;
-    z-index: 20;
-}
+    margin-bottom: -5px;
+    z-index: -10;
+    margin-bottom: -5px;
 
+}
+.b-a-sc7__img{
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+}
 .b-a-scroll-8{
     background: url(../img/artess/bg_screen_8.jpg) 50% 50% no-repeat;
 
