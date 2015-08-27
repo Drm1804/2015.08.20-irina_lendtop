@@ -842,7 +842,56 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
-
+.b-a-sc1-share-vk{
+    background: url(../img/artess/icon_Vk.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.b-a-sc1-share-vk:hover{
+    background: url(../img/artess/icon_Vk-hover.png) 50% 50% no-repeat;
+}
+.b-a-sc1-share-fb{
+    background: url(../img/artess/icon_Fb.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.b-a-sc1-share-fb:hover{
+    background: url(../img/artess/icon_Fb-hover.png) 50% 50% no-repeat;
+}
+.b-a-sc1-share-tw{
+    background: url(../img/artess/icon_Tw.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.b-a-sc1-share-tw:hover{
+    background: url(../img/artess/icon_Tw-hover.png) 50% 50% no-repeat;
+}
+.b-a-sc1-share-lj{
+    background: url(../img/artess/icon_LJ.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.b-a-sc1-share-lj:hover{
+    background: url(../img/artess/icon_LJ-hover.png) 50% 50% no-repeat;
+}
+.b-a-sc1-share-pin{
+    background: url(../img/artess/icon_pin.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.b-a-sc1-share-pin:hover{
+    background: url(../img/artess/icon_pin-hover.png) 50% 50% no-repeat;
+}
 .b-a-sc1-share__ul li{
     display: inline-block;
     vertical-align: middle;
@@ -1076,8 +1125,12 @@ body{
     width: 50%;
     display: inline-block;
     vertical-align: middle;
+    background: #f3f3f3;
 }
-
+.b-a-sc10-left:hover,
+.b-a-sc10-right:hover{
+    background: #e4e4e4;
+}
 
 .b-a-sc10-link{
     width: 500px;
@@ -1172,6 +1225,10 @@ body{
     padding: 20px 0;
     color: #000;
     margin: 35px 0;
+    transition-duration: .3s;
+}
+.b-a-sc11-but:hover{
+    background: #09a5ff;
 }
 
 .b-a-sc11-rating--small{
