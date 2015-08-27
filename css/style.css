@@ -792,6 +792,10 @@ body{
     font-size: .9em;
     margin-top: 70px;
     margin-right: 20px;
+    transition-duration: .3s;
+}
+.b-a-sc2-btn1:hover{
+    opacity: .7;
 }
 .b-a-sc2-btn1 span{
     font-family: 'MuseoSansCyrl-900';
@@ -811,6 +815,11 @@ body{
     text-align: center;
     font-size: .9em;
     margin-top: 70px;
+}
+.b-a-sc2-btn2:hover{
+    background: #00a2ff;
+    color: #ffffff;
+
 }
 
 .b-a-sc2-btn2 span{
@@ -924,7 +933,14 @@ body{
     width: 100%;
     height: 879px;
     overflow: hidden;
+    position: relative;
 }
+.b-a-sc6-frame__img{
+    top: 0;
+    bottom: auto;
+    position: absolute;
+}
+
 .b-a-sc6-h2{
     font-size: 3.15em;
     text-align: center;
@@ -1001,7 +1017,11 @@ body{
     height: 375px;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 184px;
+    top: 184px;
+    position: relative;
+}
+.b-a-sc8-box-img{
+    position: relative;
 }
 .b-a-scroll-9-col{
     display: inline-block;
