@@ -23,10 +23,10 @@ $(document).ready(function(){
             object.hover(
                 function(){
                     var path = parseInt(object.height()) - parseInt(parent.height())
-                    $(this).stop().animate({top : ''+-path+''}, 3000)
+                    $(this).stop().animate({top : ''+-path+''}, 10000)
                 },
                 function(){
-                    $(this).stop().animate({top : '0'}, 3000)
+                    $(this).stop().animate({top : '0'}, 10000)
                 }
             )
         }
