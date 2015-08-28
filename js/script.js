@@ -2,39 +2,6 @@ $(document).ready(function(){
     $('.scroll-to').scrollTo();
 
 
-    //$('.fancybox').fancybox();
-
-
-    //Парлакс эффект
-
-    var paralax = function(){
-        var scroll = $('.b-scroll-2');
-
-        var scrollOffset = scroll.offset();
-        var scrollHeight = scroll.height();
-        var windowHeight = $(window).height();
-        $(window).on('mousewheel', function(event){
-            var sc = $(document).scrollTop();
-            var img = $('.b-scroll-2-big-img');
-            if(scrollOffset.top < sc + windowHeight &&  scrollOffset.top + scrollHeight > sc){
-                var top = parseInt(img.attr('data-img'));
-                if(event.originalEvent.deltaY < 0){
-                    top += 30;
-                } else {
-                    top -= 30;
-                }
-                img.css('top', ''+top+'px');
-                img.attr('data-img', ''+top+'');
-
-            } else {
-                img.css('top', '0');
-                img.attr('data-img', '0');
-            }
-        });
-
-    };
-    paralax();
-
 
     //Слайдер
     var slider = function(){
