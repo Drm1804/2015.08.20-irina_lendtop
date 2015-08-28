@@ -1180,6 +1180,7 @@ body{
     height: 55px;
     cursor: pointer;
     vertical-align: middle;
+    transition-duration: .3s;
 
 }
 .b-a-sc11-rating__text{

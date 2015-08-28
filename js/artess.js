@@ -9,14 +9,10 @@ $(document).ready(function(){
     });
 
 
-    //$('.b-a-sc6-frame__img').hover(
-    //
-    //)
     function Artess(){
         var _this = this;
-        this.sc7 = function(){
 
-        };
+
 
         this.scrollImg = function(object){
             var parent = object.parent();
@@ -30,9 +26,44 @@ $(document).ready(function(){
                 }
             )
         }
+
+        this.rate = function(object){
+            object.hover(
+                function(){
+                    for(var i = 0; i  < object.length; i++){
+                        object.eq(i).css('background', 'url(img/artess/star_big.png) 50% 50% no-repeat');
+                        if(object.eq(i)[0] == $(this)[0]){
+                            $('.b-a-sc11-rating__text--rate').text($(this).attr('data-text'));
+                            return
+                        }
+                    }
+                },
+                function(){
+                    for(var i = 0; i < object.length; i++){
+                        //console.log($(this)[0].attributes.style)
+                        if(object.eq(i).attr('style') == 'background-image : url(img/artess/star_big.png) !important;'){
+                            return
+                        } else {
+                            object.css('background', 'url(img/artess/star_big-n.png) 50% 50% no-repeat')
+                        }
+                    }
+
+                }
+            );
+            object.on('click', function(){
+                for(var i = 0; i < object.length; i++){
+                    object.eq(i).attr('style', 'background-image : url(img/artess/star_big.png) !important;');
+                    if(object.eq(i)[0] == $(this)[0]){
+                        return
+                    }
+                }
+            })
+
+        }
     }
 
     var artess = new Artess();
     artess.scrollImg($('.b-a-sc6-frame__img'));
     artess.scrollImg($('.b-a-sc8-box-img'));
+    artess.rate($('.b-a-sc11-rating__star--rate'));
 });
