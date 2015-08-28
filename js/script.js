@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.scroll-to').scrollTo();
+    //$('.scroll-to').scrollTo();
 
 
 
@@ -88,4 +88,21 @@ $(document).ready(function(){
     });
 
 
+    $(".fancybox").fancybox();
+
+
+    //Плавный скролл до элемента
+
+    $('.scroll a[href^="#"]').click(function () {
+        var elementClick = $(this).attr("href");
+        //console.log(destination)
+        var destination = $(elementClick).offset().top;
+        console.log(destination);
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+        return false;
+    });
+
+    $('.b-scroll-to-upp').on('click', function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    });
 });

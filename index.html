@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>Landing page «под ключ»</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/elastic.css">
     <script src="bower_components/jquery/jquery.min.js"></script>
-    <script src="bower_components/Scroll-To/scrollTo.min.js"></script>
+    <script src="bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -33,10 +34,10 @@
                     <a href="#" class="b-header-nav-town">Санкт-Петербург</a>
                 </div>
                 <ul class="b-header-nav__link">
-                    <li class="b-header-nav-link">
+                    <li class="b-header-nav-link scroll">
                         <a href="#portfolio" class="b-header-nav-link-item scroll-to">Портфолио</a>
                     </li>
-                    <li class="b-header-nav-link">
+                    <li class="b-header-nav-link ">
                         <a href="#" class="b-header-nav-link-item">Блог</a>
                     </li>
                 </ul>
@@ -275,7 +276,7 @@
                     реализации</p>
             </div><!--
          --><div class="b-scroll-4__small-col">
-                <a href="#" class="b-scroll-4-send">Оставить заявку</a>
+                <a href="#b-popUp1" class="b-scroll-4-send fancybox">Оставить заявку</a>
             </div>
         </div>
     </div>
@@ -516,10 +517,18 @@
         </div>
     </div>
 </div>
-<div id="b-popUp1">
+<div id="b-popUp1" class="b-popUp1">
     <div class="b-popUp-box">
-        <h2 class="b-popUp-cox__h2"></h2>
-        <h3 class="b-popUp-cox__h3"></h3>
+        <form class="b-popUp1-form" action="#" method="post">
+            <h2 class="b-popUp-cox__h2">Оставьте заявку</h2>
+            <h3 class="b-popUp-cox__h3">и получите персональное ценовое предложение</h3>
+            <div class="b-popUp-separate"></div>
+            <input class="b-popUp-input-text b-popUp-input-text--name" placeholder="Ваше имя" type="text"/><!--
+         --><input class="b-popUp-input-text b-popUp-input-text--tel" placeholder="Телефон" type="text"/><!--
+         --><input class="b-popUp-input-text b-popUp-input-text--email" placeholder="E-mail" type="text"/>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input value="Отправить" type="submit"/>
+        </form>
 
     </div>
 </div>

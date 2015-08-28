@@ -170,6 +170,9 @@
     .b-a-scroll-10{
         display: none;
     }
+    .b-scroll-6-after-dop{
+        display: none;
+    }
 }
 
 @media (max-width: 690px){
