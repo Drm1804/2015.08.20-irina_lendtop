@@ -871,7 +871,9 @@ body {
     font-size: .8em;
 }
 
-.b-popUp1 {
+#b-popUp1,
+#b-popUp2,
+#success{
     display: none;
 }
 

@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Разработка лэндинг пэйдж для HR-агентства</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/elastic.css">
+
     <script src="bower_components/jquery/jquery.min.js"></script>
-    <script src="bower_components/Scroll-To/scrollTo.min.js"></script>
+    <script src="bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="//oss.maxcdn.com/jquery.form/3.50/jquery.form.min.js"></script>
     <script src="js/artess.js"></script>
 </head>
 <body>
@@ -257,7 +260,7 @@
                     <label for="rate5" data-text="Отлично!" class="b-a-sc11-rating__star b-a-sc11-rating__star--rate"></label>
                     <p class="b-a-sc11-rating__text b-a-sc11-rating__text--rate"></p>
                 </div>
-                <a href="#" class="b-a-sc11-but">Проголосовать </a>
+                <a href="#b-popUp2" class="b-a-sc11-but fancybox">Проголосовать </a>
             </div>
 
         </div>
@@ -297,7 +300,7 @@
                 <p class="b-a-scroll-9-big-first">
                     Нужен сайт?
                 </p>
-                <a href="#" class="b-scroll-9-send b-scroll-9-send--a">Оставить заявку</a>
+                <a href="#b-popUp1" class="b-scroll-9-send b-scroll-9-send--a fancybox">Оставить заявку</a>
 
                 <p class="b-scroll-9-big-text">
                     или
@@ -307,10 +310,10 @@
                     Оставьте e-mail и получите общее <br>
                     предложение в PDF
                 </p>
-                <div class="b-scroll-9-send-box">
-                    <input placeholder="E-mail" class="b-scroll-9-input-text" type="text">
+                <form action="mail.php" method="post" class="b-scroll-9-send-box">
+                    <input name="email" required placeholder="E-mail" class="b-scroll-9-input-text" type="text">
                     <input class="b-scroll-9-input-btn btn" type="submit" value="Отправить">
-                </div>
+                </form>
             </div>
 
         </div>
@@ -356,5 +359,59 @@
         </div>
     </div>
 </div>
+<div id="b-popUp1" class="b-popUp1">
+    <div class="b-popUp-box">
+        <form class="b-popUp1-form" action="send.php" method="post">
+            <h2 class="b-popUp-cox__h2">Оставьте заявку</h2>
+            <h3 class="b-popUp-cox__h3">и получите персональное ценовое предложение</h3>
+            <div class="b-popUp-separate"></div>
+            <input name="name" required class="b-popUp-input-text b-popUp-input-text--name" placeholder="Ваше имя" type="text"/><!--
+         --><input name="tel" required class="b-popUp-input-text b-popUp-input-text--tel" placeholder="Телефон" type="text"/><!--
+         --><input name="mail" required class="b-popUp-input-text b-popUp-input-text--email" placeholder="E-mail" type="text"/>
+            <textarea required name="message" class="b-popUp-textarea-text" name="" id="" cols="30" rows="10"></textarea>
+            <p class="b-popUp-descript_p">Прикрепите ТЗ <span>(pdf, doc, до 5 мб)</span></p>
+            <input name="brif" id="subscribe" style="display: none;" value="Хочу получить бриф" type="checkbox">
+            <label class="b-popUp-subscribe" for="subscribe">Хочу получить бриф для заполнения</label>
+            <div class="b-popUp-row">
+                <input class="b-popUp-send" value="Отправить" type="submit"/>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="b-popUp2">
+    <div class="b-popUp-box b-popUp-box--popup2">
+        <form class="b-popUp1-form b-popUp2-form" action="rate.php" method="post">
+            <div class="b-popup-width">
+                <h2 class="b-popUp-cox__h2">Спасибо за оценку проекта!</h2>
+                <div class="b-popUp-separate b-popUp-separate--popup-2"></div>
+                <h3 class="b-popUp-cox__h3">Будем благодарны за ваши дополнительные комментарии</h3>
+                <textarea name="good" class="b-popUp2-textarea" placeholder="Что понравилось"></textarea>
+                <textarea name="bad" class="b-popUp2-textarea" placeholder="Что не понраилось"></textarea>
+            </div>
+
+            <div class="b-popUp2-color-box">
+                <h2 class="b-popUp2-color-box__h2">Получите подарок за ваш комментарий!</h2>
+                <input name="brif" placeholder="Email" class="b-popUp2-color-box__input" type="text">
+                <p class="b-popUp2-color-box__p">Email для получения подарка <br>
+                    (не обязательно)</p>
+
+            </div>
+            <div class="b-popUp-row">
+                <input class="b-popUp-send b-popUp-send--popup-2" value="Отправить" type="submit"/>
+            </div>
+            <input name="rate0" id="rate0" style="display: none;" value="Ценка не поставлена" type="radio" checked>
+            <input name="rate1" id="rate1" style="display: none;" value="Поставлена оценка 1" type="radio">
+            <input name="rate2" id="rate2" style="display: none;" value="Поставлена оценка 2" type="radio">
+            <input name="rate3" id="rate3" style="display: none;" value="Поставлена оценка 3" type="radio">
+            <input name="rate4" id="rate4" style="display: none;" value="Поставлена оценка 4" type="radio">
+            <input name="rate5" id="rate5" style="display: none;" value="Поставлена оценка 5" type="radio">
+        </form>
+
+    </div>
+</div>
+<form id="success" class="b-pop-up b-pop-up--success">
+    <p class="mega">Заявка отправлена!</p>
+    <h3>Мы перезвоним вам в течение часа</h3>
+</form>
 </body>
 </html>

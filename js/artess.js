@@ -66,4 +66,10 @@ $(document).ready(function(){
     artess.scrollImg($('.b-a-sc6-frame__img'));
     artess.scrollImg($('.b-a-sc8-box-img'));
     artess.rate($('.b-a-sc11-rating__star--rate'));
+
+    $('form').ajaxForm(function() {
+        $.fancybox([{href : '#success'}]);
+    });
+
+    $(".fancybox").fancybox();
 });
