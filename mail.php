@@ -2,7 +2,7 @@
 
 if (isset($_POST['email'])) {$email = $_POST['email'];}
 
-$to = "drm-a@yandex.ru";
+$to = "iz@landingtop.ru";
 $from = "info@yandex.ru";
 $subject = "Landing Top. Оставлен email ";
 $subject = '=?utf-8?b?'. base64_encode($subject) .'?=';

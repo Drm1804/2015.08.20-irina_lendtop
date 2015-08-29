@@ -6,7 +6,7 @@ if (isset($_POST['tel'])) {$tel = $_POST['tel'];}
 if (isset($_POST['brif'])) {$brif = $_POST['brif'];}
 if (isset($_POST['message'])) {$message = $_POST['message'];}
 
-$to = "drm-a@yandex.ru";
+$to = "iz@landingtop.ru";
 $from = "info@yandex.ru";
 $subject = "Главная страница Landing Top";
 $subject = '=?utf-8?b?'. base64_encode($subject) .'?=';

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing page «под ключ»</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
@@ -29,6 +30,8 @@
                         <img src="img/icon_phone.png" alt="" class="b-header-nav-tel__img"/>
 
                         <p class="b-header-nav-tel__p">+7 987 654 32 10</p>
+
+        
                     </div>
                 </div>
                 <div class="b-header-nav__town">
@@ -333,7 +336,7 @@
                 </div>
             </div>
         </div><!--
-     --><div class="b-scroll-6__col">
+     --><div class="b-scroll-6__col b-scroll-6__col--dn-mob">
             <div class="b-scroll-6-slider">
                 <div class="b-scroll-6__slide-item">
                     <img src="img/pict_2.jpg" alt="">
@@ -378,43 +381,43 @@
             </div>
         </div>
     </div>
-    <div class="b-scroll-7">
-        <div class="width">
-            <h2 class="b-scroll-7-h2">Вы точно наш клиент, если:</h2>
+    <!--<div class="b-scroll-7">-->
+        <!--<div class="width">-->
+            <!--<h2 class="b-scroll-7-h2">Вы точно наш клиент, если:</h2>-->
 
-            <div class="b-scroll-5-separate"></div>
-            <div class="b-scroll-7-box">
-                <div class="b-scroll-7__item">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        Вы уверены в своем <br/> торговом предложении</p>
-                </div><!--
-             --><div class="b-scroll-7__item">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        Вы работаете в городах Москва или Санкт-Петербург</p>
-                </div><!--
-             --><div class="b-scroll-7__item">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        Вы понимаете важность качественного дизайна лендинга</p>
+            <!--<div class="b-scroll-5-separate"></div>-->
+            <!--<div class="b-scroll-7-box">-->
+                <!--<div class="b-scroll-7__item">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--Вы уверены в своем <br/> торговом предложении</p>-->
+                <!--</div>&lt;!&ndash;-->
+             <!--&ndash;&gt;<div class="b-scroll-7__item">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--Вы работаете в городах Москва или Санкт-Петербург</p>-->
+                <!--</div>&lt;!&ndash;-->
+             <!--&ndash;&gt;<div class="b-scroll-7__item">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--Вы понимаете важность качественного дизайна лендинга</p>-->
 
-                </div><!--
-             --><div class="b-scroll-7__item">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        Вы хотите начать или увеличить продажи</p>
+                <!--</div>&lt;!&ndash;-->
+             <!--&ndash;&gt;<div class="b-scroll-7__item">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--Вы хотите начать или увеличить продажи</p>-->
 
-                </div><!--
-             --><div class="b-scroll-7__item">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        У вас есть концепция страницы или нужна помощь в ее разработке</p>
+                <!--</div>&lt;!&ndash;-->
+             <!--&ndash;&gt;<div class="b-scroll-7__item">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--У вас есть концепция страницы или нужна помощь в ее разработке</p>-->
 
-                </div><!--
-             --><div class="b-scroll-7__item b-scroll-7__item--last">
-                    <p class="b-scroll-7-item"><span>+</span>
-                        Вам интересна стабильная рекламная и проектная <br/> поддержка</p>
+                <!--</div>&lt;!&ndash;-->
+             <!--&ndash;&gt;<div class="b-scroll-7__item b-scroll-7__item&#45;&#45;last">-->
+                    <!--<p class="b-scroll-7-item"><span>+</span>-->
+                        <!--Вам интересна стабильная рекламная и проектная <br/> поддержка</p>-->
 
-                </div>
-            </div>
-        </div>
-    </div>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
     <div class="b-scroll-8">
         <div class="width">
             <h2 class="b-scroll-8__h2">
@@ -474,7 +477,7 @@
         </div><!--
      --><div class="b-scroll-9-col">
         <div class="b-scroll-9-width">
-            <a href="#" class="b-scroll-9-send">Оставить заявку</a>
+            <a href="#b-popUp1" class="b-scroll-9-send fancybox">Оставить заявку</a>
 
             <p class="b-scroll-9-big-text">
                 или
@@ -531,6 +534,7 @@
             <input name="brif" id="subscribe" style="display: none;" value="Хочу получить бриф" type="checkbox">
             <label class="b-popUp-subscribe" for="subscribe">Хочу получить бриф для заполнения</label>
             <div class="b-popUp-row">
+                <input class="b-popUp-add" value="Приверпить ТЗ" type="button">
                 <input class="b-popUp-send" value="Отправить" type="submit"/>
             </div>
 

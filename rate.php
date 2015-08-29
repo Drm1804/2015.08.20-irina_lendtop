@@ -10,7 +10,7 @@ if (isset($_POST['good'])) {$good = $_POST['good'];}
 if (isset($_POST['bad'])) {$bad = $_POST['bad'];}
 if (isset($_POST['brif'])) {$brif = $_POST['brif'];}
 
-$to = "drm-a@yandex.ru";
+$to = "iz@landingtop.ru";
 $from = "info@yandex.ru";
 $subject = "Поставлена оценка Landing Top";
 $subject = '=?utf-8?b?'. base64_encode($subject) .'?=';

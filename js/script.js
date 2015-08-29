@@ -88,7 +88,10 @@ $(document).ready(function(){
     });
 
 
-    $(".fancybox").fancybox();
+    $(".fancybox").fancybox({
+            fitToView   : false,
+            autoSize    : true
+        });
 
 
     //Плавный скролл до элемента

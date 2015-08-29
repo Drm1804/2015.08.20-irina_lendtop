@@ -19,10 +19,10 @@ $(document).ready(function(){
             object.hover(
                 function(){
                     var path = parseInt(object.height()) - parseInt(parent.height())
-                    $(this).stop().animate({top : ''+-path+''}, 20000)
+                    $(this).stop().animate({top : ''+-path+''}, 30000)
                 },
                 function(){
-                    $(this).stop().animate({top : '0'}, 20000)
+                    $(this).stop().animate({top : '0'}, 30000)
                 }
             )
         }
@@ -71,5 +71,9 @@ $(document).ready(function(){
         $.fancybox([{href : '#success'}]);
     });
 
-    $(".fancybox").fancybox();
+
+    $(".fancybox").fancybox({
+        fitToView   : false,
+        autoSize    : true
+    });
 });

@@ -79,6 +79,8 @@
 body {
     font-family: 'MuseoSansCyrl-500';
     min-width: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .width {
@@ -538,6 +540,7 @@ body {
 
 .b-scroll-6 {
     background: #01befe;
+    overflow: hidden;
 }
 
 .b-scroll-6__col {
@@ -545,6 +548,7 @@ body {
     display: inline-block;
     width: 50%;
     margin-bottom: -3px;
+    height: 605px;
 }
 
 .b-scroll-6-col {
@@ -561,6 +565,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     line-height: 1.2em;
+    padding-top: 35px;
 }
 
 .b-scroll-6-ul {
@@ -607,6 +612,7 @@ body {
 
 .b-scroll-6__slide-item img {
     width: 100%;
+    height: 605px;
 }
 
 .b-scroll-6__slide-item--pos-ab {
@@ -1099,7 +1105,17 @@ input#subscribe:checked + label:before {
     width: 200px;
     padding: 40px;
 }
-
+.b-popUp-add{
+    background: #fff;
+    border: 3px solid #2fa4ff;
+    width: 155px;
+    height: 50px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.b-popUp-add:hover{
+    background: #2fa4ff;;
+}
 /*ARTESS*/
 
 .b-a-sc1-h2 {
@@ -1134,6 +1150,7 @@ input#subscribe:checked + label:before {
 
 .b-a-scroll-2 {
     background: #f3f3f3;
+    overflow: hidden;
 }
 
 .b-a-sc2-width {
@@ -1303,8 +1320,8 @@ input#subscribe:checked + label:before {
 
 .b-a-scroll-3 {
     background: #f3f3f3;
-    padding-top: 130px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .b-a-sc3__h2 {
@@ -1398,6 +1415,9 @@ input#subscribe:checked + label:before {
     height: 40px;
     background: url(../img/artess/browser.png) 50% 50% no-repeat;
 }
+.b-a-sc6__but-frame{
+    display: none;
+}
 
 .b-a-sc6-frame {
     width: 100%;
@@ -1489,8 +1509,19 @@ input#subscribe:checked + label:before {
 .b-a-sc8-box {
     background: url(../img/artess/hand.png) 50% 100% no-repeat;
     height: 700px;
+    position: relative;
 }
+.b-a-sc8-box:before{
+    content: "";
+    display: block;
+    width: 224px;
+    height: 57px;
+    position: absolute;
+    background: url(../img/mouse.png) 50% 50% no-repeat;
+    right: 0;
+    top: 30px;
 
+}
 .b-a-sc8-box__overflow {
     width: 276px;
     height: 375px;
@@ -1634,6 +1665,7 @@ input#subscribe:checked + label:before {
 .b-a-sc11-rating__text {
     display: inline-block;
     vertical-align: middle;
+    padding-left: 30px;
 }
 
 .b-a-sc11-box__col {
@@ -1701,6 +1733,7 @@ input#subscribe:checked + label:before {
     background: url(../img/artess/icon_Vk.png) 50% 50% no-repeat;
     width: 28px;
     height: 28px;
+    padding: 5px 5px 5px 5px!important;
 }
 .yashare-auto-init .b-share-btn__vkontakte:hover{
     background: url(../img/artess/icon_Vk-hover.png) 50% 50% no-repeat;
@@ -1709,6 +1742,7 @@ input#subscribe:checked + label:before {
     background: url(../img/artess/icon_Fb.png) 50% 50% no-repeat;
     width: 28px;
     height: 28px;
+        padding: 5px 5px 5px 5px!important;
 }
 .yashare-auto-init .b-share-btn__facebook:hover{
     background: url(../img/artess/icon_Fb-hover.png) 50% 50% no-repeat;
@@ -1717,6 +1751,7 @@ input#subscribe:checked + label:before {
     background: url(../img/artess/icon_Tw.png) 50% 50% no-repeat;
     width: 28px;
     height: 28px;
+        padding: 5px 5px 5px 5px!important;
 }
 .yashare-auto-init .b-share-btn__twitter:hover{
     background: url(../img/artess/icon_Tw-hover.png) 50% 50% no-repeat;
@@ -1725,6 +1760,7 @@ input#subscribe:checked + label:before {
     background: url(../img/artess/icon_LJ.png) 50% 50% no-repeat;
     width: 28px;
     height: 28px;
+        padding: 5px 5px 5px 5px!important;
 }
 .yashare-auto-init .b-share-btn__lj:hover{
     background: url(../img/artess/icon_LJ-hover.png) 50% 50% no-repeat;
@@ -1733,10 +1769,14 @@ input#subscribe:checked + label:before {
     background: url(../img/artess/icon_pin.png) 50% 50% no-repeat;
     width: 28px;
     height: 28px;
+        padding: 5px 5px 5px 5px!important;
 }
 .yashare-auto-init .b-share-btn__pinterest:hover{
     background: url(../img/artess/icon_pin-hover.png) 50% 50% no-repeat;
 }
 .b-share-icon{
     display: none !important;
+}
+.b-share__handle{
+    padding: 5px 5px 5px 5px!important;
 }
