@@ -1,3 +1,12 @@
+@media (max-width: 1700px){
+    .b-scroll-6__col{
+        overflow: hidden;
+    }
+    .b-scroll-6__slide-item img{
+        width: auto;
+    }
+}
+
 @media (max-width: 1000px){
     .b-scroll-1 video{
         height: 100%;
