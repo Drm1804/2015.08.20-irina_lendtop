@@ -755,12 +755,20 @@ body{
     display: none;
 }
 .fancybox-skin{
-    border: 4px solid #000;
+    border: 10px solid #3599ff;
     background: none;
+    border-radius: 0;
+
+}
+.fancybox-close{
+    background: url(../img/close.png) 50% 50% no-repeat;
+    top: 44px;
+    right: 41px;
 }
 .b-popUp-box{
     background: #FFFFFF;
     width: 720px;
+    padding-bottom: 50px;
 }
 .b-popUp1-form{
     display: block;
@@ -784,23 +792,86 @@ body{
     height: 3px;
     background: #2fa4ff;
     width: 70px;
-    margin: 33px 0 60px;
+    margin: 33px 0 40px;
 }
 .b-popUp-input-text{
-    width: 30%;
+    width: 26%;
+    padding: 0 2%;
     display: inline-block;
     height: 50px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    margin: 0 2%;
 
 }
-.b-popUp-input-text:nth-child(1){
+.b-popUp-input-text--name{
     margin-left: 0;
+    background: url(../img/popup_ico_1.png) 93% 50% no-repeat;
 }
-.b-popUp-input-text:nth-last-child(1){
+.b-popUp-input-text--tel{
+
+    background: url(../img/popup_ico_2.png) 93% 50% no-repeat;
+}
+.b-popUp-input-text--email{
     margin-right: 0;
+    background: url(../img/popup_ico_3.png) 93% 50% no-repeat;
 }
+.b-popUp-textarea-text{
+    width: 609px;
+    resize: none;
+    margin-top: 30px;
+    height: 135px;
+    margin-bottom: 15px;
+}
+.b-popUp-descript_p{
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    font-size: .9em;
+
+}
+.b-popUp-descript_p span{
+    font-weight: normal;
+}
+.b-popUp-subscribe{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: .87em;
+
+}
+.b-popUp-subscribe:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/checkbox.png) 50% 50% no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+input#subscribe:checked + label:before{
+    background: url(../img/checkbox-checked.png) 50% 50% no-repeat;
+}
+
+
+.b-popUp-row{
+    clear: both;
+    overflow: hidden;
+}
+.b-popUp-send{
+    width: 170px;
+    color: #fff;
+    height: 50px;
+    background-color: #2fa4ff;
+    border: 0;
+    float: right;
+    margin-top: 67px;
+}
+
+
 /*ARTESS*/
 
 .b-a-sc1-h2{
