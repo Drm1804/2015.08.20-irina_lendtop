@@ -870,6 +870,79 @@ input#subscribe:checked + label:before{
     float: right;
     margin-top: 67px;
 }
+.b-popUp-separate--popup-2{
+    margin: 23px 0 29px;
+}
+.b-popUp-send--popup-2{
+    margin: 54px auto 0;
+    float: none;
+    display: block;
+}
+.b-popUp2-textarea{
+    width: 574px;
+    resize: none;
+    margin-top: 30px;
+    height: 56px;
+    margin-bottom: -12px;
+    font-family: Arial;
+    padding: 20px;
+
+
+}
+.b-popUp2-color-box{
+    height: 134px;
+    padding-top: 95px;
+    text-align: center;
+    background: url(../img/popup-bg.jpg) 50% 84% no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.b-popUp2-color-box__input{
+    background: url(../img/popup_ico_3.png) 93% 50% no-repeat;
+    padding: 0 2%;
+    display: inline-block;
+    height: 50px;
+    background-color: #fff;
+    width: 210px;
+    margin-left: 33px;
+}
+
+.b-popUp2-color-box__h2{
+    font-family: 'MuseoSansCyrl-700';
+    color: #fff;
+    font-size: 1.52em;
+    line-height: 1.5px;
+    margin-bottom: 45px;
+}
+.b-popUp2-color-box__p{
+    font-family: Arial;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    color: #fff;
+    padding-left: 13px;
+    line-height: 1.6em;
+    font-size: .9em;
+}
+.b-popUp2-form{
+    width: 720px;
+}
+.fancybox-inner{
+    background-color: #fff;
+
+}
+.b-popUp-box--popup2{
+    background: none;
+}
+.b-popup-width{
+    width: 620px;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 
 /*ARTESS*/
