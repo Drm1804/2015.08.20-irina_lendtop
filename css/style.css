@@ -1304,6 +1304,7 @@ input#subscribe:checked + label:before {
 .b-a-scroll-3 {
     background: #f3f3f3;
     padding-top: 130px;
+    padding-bottom: 20px;
 }
 
 .b-a-sc3__h2 {
@@ -1323,6 +1324,7 @@ input#subscribe:checked + label:before {
 
 .b-a-scroll-4 {
     background: #ffffff;
+    overflow: hidden;
 }
 
 .b-a-sc-4-grid {
@@ -1687,4 +1689,54 @@ input#subscribe:checked + label:before {
 
 .b-a-sc11-rating--small {
     padding: 0;
+}
+
+/*Кнопки поделиться*/
+
+.yashare-auto-init{
+    display: inline-block;
+    vertical-align: middle;
+}
+.yashare-auto-init .b-share-btn__vkontakte{
+    background: url(../img/artess/icon_Vk.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.yashare-auto-init .b-share-btn__vkontakte:hover{
+    background: url(../img/artess/icon_Vk-hover.png) 50% 50% no-repeat;
+}
+.yashare-auto-init .b-share-btn__facebook{
+    background: url(../img/artess/icon_Fb.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.yashare-auto-init .b-share-btn__facebook:hover{
+    background: url(../img/artess/icon_Fb-hover.png) 50% 50% no-repeat;
+}
+.yashare-auto-init .b-share-btn__twitter{
+    background: url(../img/artess/icon_Tw.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.yashare-auto-init .b-share-btn__twitter:hover{
+    background: url(../img/artess/icon_Tw-hover.png) 50% 50% no-repeat;
+}
+.yashare-auto-init .b-share-btn__lj{
+    background: url(../img/artess/icon_LJ.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.yashare-auto-init .b-share-btn__lj:hover{
+    background: url(../img/artess/icon_LJ-hover.png) 50% 50% no-repeat;
+}
+.yashare-auto-init .b-share-btn__pinterest{
+    background: url(../img/artess/icon_pin.png) 50% 50% no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.yashare-auto-init .b-share-btn__pinterest:hover{
+    background: url(../img/artess/icon_pin-hover.png) 50% 50% no-repeat;
+}
+.b-share-icon{
+    display: none !important;
 }
