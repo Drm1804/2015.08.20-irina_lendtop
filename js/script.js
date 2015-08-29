@@ -105,4 +105,8 @@ $(document).ready(function(){
     $('.b-scroll-to-upp').on('click', function(){
         $("html, body").animate({ scrollTop: 0 }, 600);
     });
+
+    $('form').ajaxForm(function() {
+        $.fancybox([{href : '#success'}]);
+    });
 });

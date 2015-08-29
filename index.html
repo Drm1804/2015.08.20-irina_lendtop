@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/elastic.css">
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="//oss.maxcdn.com/jquery.form/3.50/jquery.form.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -276,7 +277,7 @@
                     реализации</p>
             </div><!--
          --><div class="b-scroll-4__small-col">
-                <a href="#b-popUp2" class="b-scroll-4-send fancybox">Оставить заявку</a>
+                <a href="#b-popUp1" class="b-scroll-4-send fancybox">Оставить заявку</a>
             </div>
         </div>
     </div>
@@ -518,16 +519,16 @@
 </div>
 <div id="b-popUp1" class="b-popUp1">
     <div class="b-popUp-box">
-        <form class="b-popUp1-form" action="#" method="post">
+        <form class="b-popUp1-form" action="send.php" method="post">
             <h2 class="b-popUp-cox__h2">Оставьте заявку</h2>
             <h3 class="b-popUp-cox__h3">и получите персональное ценовое предложение</h3>
             <div class="b-popUp-separate"></div>
-            <input class="b-popUp-input-text b-popUp-input-text--name" placeholder="Ваше имя" type="text"/><!--
-         --><input class="b-popUp-input-text b-popUp-input-text--tel" placeholder="Телефон" type="text"/><!--
-         --><input class="b-popUp-input-text b-popUp-input-text--email" placeholder="E-mail" type="text"/>
-            <textarea class="b-popUp-textarea-text" name="" id="" cols="30" rows="10"></textarea>
+            <input name="name" required class="b-popUp-input-text b-popUp-input-text--name" placeholder="Ваше имя" type="text"/><!--
+         --><input name="tel" required class="b-popUp-input-text b-popUp-input-text--tel" placeholder="Телефон" type="text"/><!--
+         --><input name="mail" required class="b-popUp-input-text b-popUp-input-text--email" placeholder="E-mail" type="text"/>
+            <textarea required name="message" class="b-popUp-textarea-text" name="" id="" cols="30" rows="10"></textarea>
             <p class="b-popUp-descript_p">Прикрепите ТЗ <span>(pdf, doc, до 5 мб)</span></p>
-            <input id="subscribe" style="display: none;" value="Хочу получить бриф" type="checkbox">
+            <input name="brif" id="subscribe" style="display: none;" value="Хочу получить бриф" type="checkbox">
             <label class="b-popUp-subscribe" for="subscribe">Хочу получить бриф для заполнения</label>
             <div class="b-popUp-row">
                 <input class="b-popUp-send" value="Отправить" type="submit"/>
@@ -563,6 +564,9 @@
 
     </div>
 </div>
-
+<form id="success" class="b-pop-up b-pop-up--success">
+    <p class="mega">Заявка отправлена!</p>
+    <h3>Мы перезвоним вам в течение часа</h3>
+</form>
 </body>
 </html>
