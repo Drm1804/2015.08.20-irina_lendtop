@@ -112,4 +112,17 @@ $(document).ready(function(){
     $('form').ajaxForm(function() {
         $.fancybox([{href : '#success'}]);
     });
+
+
+
+    //Ручная смена города и номера телефона
+    $('.close-fBox').on('click', function(){
+        $.fancybox.close();
+    });
+    $('.select-town').on('click', function(){
+        var town = $(this).attr('for');
+        var data = $('#'+town+'');
+        $('.b-header-nav-tel__p').text(data.attr('data-tel'));
+        $('.b-header-nav-town').text(data.attr('data-city'));
+    })
 });

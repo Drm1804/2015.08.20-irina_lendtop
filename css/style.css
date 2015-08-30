@@ -1116,6 +1116,25 @@ input#subscribe:checked + label:before {
 .b-popUp-add:hover{
     background: #2fa4ff;;
 }
+.b-popup-changetown{
+    width: 300px;
+    padding: 70px 10px;
+    display: none;
+}
+.b-header-drop-down__label{
+    display: block;
+    text-align: left;
+    color: #000;
+    cursor: pointer;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 1.2em;
+}
+.b-header-drop-down__label:hover{
+    color: #01befe;
+}
+
 /*ARTESS*/
 
 .b-a-sc1-h2 {

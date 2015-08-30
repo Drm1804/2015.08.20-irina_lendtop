@@ -405,6 +405,7 @@
             <input name="brif" id="subscribe" style="display: none;" value="Хочу получить бриф" type="checkbox">
             <label class="b-popUp-subscribe" for="subscribe">Хочу получить бриф для заполнения</label>
             <div class="b-popUp-row">
+                <input class="b-popUp-add" value="Приверпить ТЗ" type="button">
                 <input class="b-popUp-send" value="Отправить" type="submit"/>
             </div>
         </form>
@@ -446,5 +447,12 @@
     <h3>Мы перезвоним вам в течение часа</h3>
 </form>
 
+
+<div id="changetown" class="b-popup-changetown">
+    <label class="b-header-drop-down__label select-town close-fBox" for="msk">Москва</label>
+    <label class="b-header-drop-down__label select-town close-fBox" for="spb">Санкт-Петербург</label>
+    <input name="town" class="input-town-radio" style="display: none;" id="msk" data-city="Москва" data-tel="+7 (499) 553-0730" type="radio" class="b-header-dd-radio">
+    <input name="town" class="input-town-radio" style="display: none;" id="spb" data-city="Санкт-Петербург" data-tel="+7 (812) 332-5413" type="radio" class="b-header-dd-radio">
+</div>
 </body>
 </html>
