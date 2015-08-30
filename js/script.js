@@ -51,6 +51,12 @@ $(document).ready(function(){
             items.hide();
             for(var i = 0; i < count; i++){
                 items.eq(i).show();
+
+                //Скрываем кнопку,когда показывать больше нечего
+                if($('.b-scroll-3-box__item:visible').length == $('.b-scroll-3-box__item').length){
+                    btn.hide()
+                }
+
             }
         };
         this.addCount = function(){
